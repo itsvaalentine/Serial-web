@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serial Killers Search Engine</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Source+Sans+3:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <!-- ─── Landing / Hero ─────────────────────────────────────────── -->
+    <header id="hero" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="skull-icon">&#9760;</div>
+            <h1 class="hero-title">Serial Killers<br><span>Search Engine</span></h1>
+            <p class="hero-subtitle">A BM25-powered search engine across {{stats.total_documents}} criminal profiles</p>
+
+            <div class="search-box" id="search-box">
+                <input
+                    type="text"
+                    id="search-input"
+                    placeholder="Search... e.g. &quot;murder Chicago&quot;, &quot;unidentified killer&quot;"
+                    autocomplete="off"
+                    spellcheck="false"
+                />
+                <button id="search-btn" onclick="doSearch()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+            <!-- Stats bar -->
+            <div class="stats-bar">
+                <div class="stat">
+                    <span class="stat-value">{{stats.total_documents}}</span>
+                    <span class="stat-label">Documents</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-value">{{stats.vocabulary_size}}</span>
+                    <span class="stat-label">Terms in Index</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-value">{{stats.avg_document_length}}</span>
+                    <span class="stat-label">Avg Doc Length</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-value" id="search-time">—</span>
+                    <span class="stat-label">Search Time (ms)</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ─── Results Section ────────────────────────────────────────── -->
+    <main id="results-section" class="results-section hidden">
+        <div class="results-header">
+            <span id="results-count"></span>
+            <button class="back-btn" onclick="resetSearch()">✕ Clear</button>
+        </div>
+        <div id="results-list" class="results-list"></div>
+    </main>
+
+    <!-- ─── Enhancement Badge ──────────────────────────────────────── -->
+    <footer class="footer">
+        <p>Enhancement <strong>A — Term Highlighting</strong> &nbsp;|&nbsp; Built with FastAPI + BM25 &nbsp;|&nbsp; Corpus: Serial Killers</p>
+    </footer>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
