@@ -13,6 +13,7 @@ from search_engine import SearchEngine
 # ─── Initialize ───────────────────────────────────────────────────────────────
 app = FastAPI(title="Serial Killers Search Engine")
 
+# Resolve corpus path relative to this file
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 corpus_path = os.path.join(BASE_DIR, "corpus.json")
 engine = SearchEngine(corpus_path)
@@ -31,10 +32,11 @@ templates = Jinja2Templates(directory=os.path.join(BASE_DIR, "templates"))
 async def home(request: Request):
     """Serve the main search page."""
     stats = engine.get_stats()
-    return templates.TemplateResponse("index.html", {
-        "request": request,
-        "stats": stats,
-    })
+    return templates.TemplateResponse(
+        request=request,
+        name="index.html",
+        context={"stats": stats},
+    )
 
 
 @app.get("/api/search")
@@ -54,11 +56,17 @@ async def api_stats():
 
 @app.get("/api/suggest")
 async def api_suggest(prefix: str = ""):
-    """Return autocomplete suggestions."""
+    """Return autocomplete suggestions (titles + terms)."""
     if not prefix.strip():
         return {"suggestions": []}
     suggestions = engine.get_suggestions(prefix.strip())
     return {"suggestions": suggestions}
+
+
+@app.get("/api/popular")
+async def api_popular():
+    """Return popular/suggested queries."""
+    return {"queries": engine.get_popular_queries()}
 
 
 # ─── Run ──────────────────────────────────────────────────────────────────────

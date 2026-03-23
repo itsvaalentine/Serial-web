@@ -320,6 +320,103 @@ body {
 
 .result-source a:hover { color: var(--accent); }
 
+/* ─── Autocomplete Dropdown ─────────────────────────────────────── */
+.autocomplete-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    max-height: 320px;
+    overflow-y: auto;
+    z-index: 100;
+    display: none;
+    box-shadow: 0 12px 32px rgba(0,0,0,0.5);
+}
+
+.autocomplete-dropdown.visible { display: block; }
+
+.ac-item {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+    transition: background 0.12s;
+    border-bottom: 1px solid var(--border);
+}
+
+.ac-item:last-child { border-bottom: none; }
+
+.ac-item:hover,
+.ac-item.ac-active {
+    background: var(--bg-card-hover);
+}
+
+.ac-icon {
+    font-size: 0.95rem;
+    flex-shrink: 0;
+    width: 1.4rem;
+    text-align: center;
+}
+
+.ac-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    min-width: 0;
+}
+
+.ac-text {
+    font-size: 0.9rem;
+    color: var(--text-primary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ac-text strong {
+    color: var(--accent);
+}
+
+.ac-meta {
+    font-size: 0.72rem;
+    color: var(--text-dim);
+}
+
+/* ─── Suggested Query Chips ─────────────────────────────────────── */
+.suggested-queries {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.45rem;
+    margin-top: 1.2rem;
+}
+
+.hero.collapsed .suggested-queries { display: none; }
+
+.query-chip {
+    background: var(--category-bg);
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    font-family: var(--font-body);
+    font-size: 0.78rem;
+    padding: 0.3rem 0.75rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: border-color 0.2s, color 0.2s, background 0.2s;
+    white-space: nowrap;
+}
+
+.query-chip:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: var(--accent-glow);
+}
+
 /* ─── Result Details Row ─────────────────────────────────────────── */
 .result-details {
     display: flex;

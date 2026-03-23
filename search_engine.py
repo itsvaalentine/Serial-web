@@ -40,6 +40,7 @@ def stem(word: str) -> str:
     """Simple suffix-stripping stemmer."""
     if len(word) <= 3:
         return word
+    # Order matters: check longer suffixes first
     suffixes = [
         ("ational", "ate"), ("tional", "tion"), ("enci", "ence"),
         ("anci", "ance"), ("izer", "ize"), ("isation", "ize"),
@@ -140,7 +141,7 @@ class BM25:
         return ranked
 
 
-# ─── TF-IDF Scoring  ─────────────────
+# ─── TF-IDF Scoring (for comparison, not required but useful) ─────────────────
 class TFIDF:
     """Basic TF-IDF scoring for reference."""
 
@@ -167,7 +168,7 @@ class TFIDF:
         return ranked
 
 
-# ─── Search Engine ──────────────────────────────────────
+# ─── Search Engine (combines everything) ──────────────────────────────────────
 class SearchEngine:
     """Main search engine class."""
 
@@ -242,13 +243,57 @@ class SearchEngine:
             )),
         }
 
-    def get_suggestions(self, prefix: str, max_results: int = 8) -> list[str]:
-        """Return vocabulary terms matching a prefix (for potential autocomplete)."""
-        prefix = prefix.lower().strip()
-        if len(prefix) < 2:
+    def get_suggestions(self, prefix: str, max_results: int = 8) -> list[dict]:
+        """Return autocomplete suggestions: matching titles and vocabulary terms."""
+        prefix_lower = prefix.lower().strip()
+        if len(prefix_lower) < 1:
             return []
-        matches = [t for t in self.index.vocabulary if t.startswith(prefix)]
-        return sorted(matches)[:max_results]
+
+        suggestions = []
+        seen = set()
+
+        # 1. Document title matches (highest priority)
+        for doc in self.index.documents.values():
+            title = doc["title"]
+            if prefix_lower in title.lower():
+                key = title.lower()
+                if key not in seen:
+                    suggestions.append({
+                        "text": title,
+                        "type": "document",
+                        "country": doc.get("country", ""),
+                        "victims": doc.get("proven_victims", ""),
+                    })
+                    seen.add(key)
+
+        # 2. Vocabulary term matches (prefix)
+        stemmed_prefix = stem(prefix_lower)
+        term_matches = sorted(
+            [t for t in self.index.vocabulary if t.startswith(stemmed_prefix) or t.startswith(prefix_lower)],
+        )
+        for term in term_matches:
+            if term not in seen and len(term) > 2:
+                suggestions.append({"text": term, "type": "term"})
+                seen.add(term)
+
+        # Sort: documents first, then terms; within each group alphabetical
+        suggestions.sort(key=lambda x: (0 if x["type"] == "document" else 1, x["text"].lower()))
+        return suggestions[:max_results]
+
+    def get_popular_queries(self) -> list[str]:
+        """Return suggested example queries for the domain."""
+        return [
+            "serial killer women",
+            "murder Chicago",
+            "cannibal",
+            "unidentified killer",
+            "poison victims",
+            "strangled",
+            "Russia killer",
+            "children murder",
+            "executed death",
+            "escaped prison",
+        ]
 
 
 # ─── Quick test ───────────────────────────────────────────────────────────────

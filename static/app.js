@@ -1,19 +1,171 @@
 // ═══════════════════════════════════════════════════════════════════
 // Serial Killers Search Engine — Frontend Logic
-// Enhancement A: Term Highlighting
+// Enhancement A: Term Highlighting + Autocomplete & Suggestions
 // ═══════════════════════════════════════════════════════════════════
 
-const input     = document.getElementById('search-input');
-const resultsSec = document.getElementById('results-section');
+const input       = document.getElementById('search-input');
+const resultsSec  = document.getElementById('results-section');
 const resultsList = document.getElementById('results-list');
 const resultsCount = document.getElementById('results-count');
 const searchTime  = document.getElementById('search-time');
 const hero        = document.getElementById('hero');
+const searchBox   = document.getElementById('search-box');
 
-// ─── Trigger search on Enter ──────────────────────────────────────
-input.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter') doSearch();
+// ─── Create autocomplete dropdown ─────────────────────────────────
+const dropdown = document.createElement('div');
+dropdown.className = 'autocomplete-dropdown';
+dropdown.id = 'autocomplete-dropdown';
+searchBox.parentNode.style.position = 'relative';
+searchBox.insertAdjacentElement('afterend', dropdown);
+
+let debounceTimer = null;
+let activeIndex = -1;
+let currentSuggestions = [];
+
+// ─── Input events ─────────────────────────────────────────────────
+input.addEventListener('input', () => {
+    clearTimeout(debounceTimer);
+    const val = input.value.trim();
+    if (val.length < 1) {
+        hideDropdown();
+        return;
+    }
+    debounceTimer = setTimeout(() => fetchSuggestions(val), 150);
 });
+
+input.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+        e.preventDefault();
+        if (activeIndex >= 0 && activeIndex < currentSuggestions.length) {
+            selectSuggestion(currentSuggestions[activeIndex]);
+        } else {
+            hideDropdown();
+            doSearch();
+        }
+        return;
+    }
+    if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        activeIndex = Math.min(activeIndex + 1, currentSuggestions.length - 1);
+        renderDropdownHighlight();
+        return;
+    }
+    if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        activeIndex = Math.max(activeIndex - 1, -1);
+        renderDropdownHighlight();
+        return;
+    }
+    if (e.key === 'Escape') {
+        hideDropdown();
+    }
+});
+
+// Close dropdown when clicking outside
+document.addEventListener('click', (e) => {
+    if (!searchBox.contains(e.target) && !dropdown.contains(e.target)) {
+        hideDropdown();
+    }
+});
+
+// ─── Fetch suggestions from API ───────────────────────────────────
+async function fetchSuggestions(prefix) {
+    try {
+        const res = await fetch(`/api/suggest?prefix=${encodeURIComponent(prefix)}`);
+        const data = await res.json();
+        currentSuggestions = data.suggestions || [];
+        activeIndex = -1;
+        renderDropdown(prefix);
+    } catch (err) {
+        console.error('Suggestion fetch failed:', err);
+    }
+}
+
+// ─── Render dropdown ──────────────────────────────────────────────
+function renderDropdown(prefix) {
+    if (currentSuggestions.length === 0) {
+        hideDropdown();
+        return;
+    }
+
+    const prefixLower = prefix.toLowerCase();
+    dropdown.innerHTML = currentSuggestions.map((s, i) => {
+        const isDoc = s.type === 'document';
+        const icon = isDoc ? '📄' : '🔍';
+        const text = highlightPrefix(s.text, prefixLower);
+        const meta = isDoc
+            ? `<span class="ac-meta">${escapeHtml(s.country || '')}${s.victims ? ' · ' + s.victims + ' victims' : ''}</span>`
+            : '';
+        return `<div class="ac-item${i === activeIndex ? ' ac-active' : ''}" data-index="${i}" onmousedown="selectSuggestionByIndex(${i})">
+            <span class="ac-icon">${icon}</span>
+            <div class="ac-content">
+                <span class="ac-text">${text}</span>
+                ${meta}
+            </div>
+        </div>`;
+    }).join('');
+
+    dropdown.classList.add('visible');
+}
+
+function renderDropdownHighlight() {
+    const items = dropdown.querySelectorAll('.ac-item');
+    items.forEach((el, i) => {
+        el.classList.toggle('ac-active', i === activeIndex);
+    });
+}
+
+function highlightPrefix(text, prefix) {
+    const idx = text.toLowerCase().indexOf(prefix);
+    if (idx === -1) return escapeHtml(text);
+    const before = escapeHtml(text.slice(0, idx));
+    const match = escapeHtml(text.slice(idx, idx + prefix.length));
+    const after = escapeHtml(text.slice(idx + prefix.length));
+    return `${before}<strong>${match}</strong>${after}`;
+}
+
+function selectSuggestion(suggestion) {
+    input.value = suggestion.text;
+    hideDropdown();
+    doSearch();
+}
+
+// Global function for inline onclick
+window.selectSuggestionByIndex = function(index) {
+    if (index >= 0 && index < currentSuggestions.length) {
+        selectSuggestion(currentSuggestions[index]);
+    }
+};
+
+function hideDropdown() {
+    dropdown.classList.remove('visible');
+    dropdown.innerHTML = '';
+    currentSuggestions = [];
+    activeIndex = -1;
+}
+
+// ─── Suggested queries (chips) ────────────────────────────────────
+async function loadPopularQueries() {
+    try {
+        const res = await fetch('/api/popular');
+        const data = await res.json();
+        const container = document.getElementById('suggested-queries');
+        if (!container || !data.queries) return;
+        container.innerHTML = data.queries.map(q =>
+            `<button class="query-chip" onclick="searchFromChip('${escapeAttr(q)}')">${escapeHtml(q)}</button>`
+        ).join('');
+    } catch (err) {
+        console.error('Failed to load popular queries:', err);
+    }
+}
+
+window.searchFromChip = function(query) {
+    input.value = query;
+    doSearch();
+};
+
+// Load on page init
+loadPopularQueries();
 
 // ─── Main search function ─────────────────────────────────────────
 async function doSearch() {
@@ -33,11 +185,9 @@ async function doSearch() {
 
 // ─── Render results ───────────────────────────────────────────────
 function renderResults(data) {
-    // Collapse hero
     hero.classList.add('collapsed');
     resultsSec.classList.remove('hidden');
 
-    // Update stats
     searchTime.textContent = data.search_time_ms;
     resultsCount.textContent = `${data.num_results} result${data.num_results !== 1 ? 's' : ''} for "${data.query}"`;
 
@@ -46,7 +196,6 @@ function renderResults(data) {
         return;
     }
 
-    // Build the original query words (lowercased) for highlighting
     const queryWords = data.query.toLowerCase().split(/\s+/).filter(w => w.length > 1);
 
     resultsList.innerHTML = data.results.map((r, i) => `
@@ -70,24 +219,17 @@ function renderResults(data) {
         </div>
     `).join('');
 
-    // Scroll to results
     resultsSec.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 // ─── ENHANCEMENT A: Term Highlighting ─────────────────────────────
-// Highlights all occurrences of query words (and their common forms)
-// inside the text, wrapping them in <mark class="highlight">
 function highlightText(text, queryWords) {
     if (!queryWords.length) return escapeHtml(text);
 
     let safe = escapeHtml(text);
 
-    // Build expanded patterns: for each query word, also match simple
-    // morphological variants (plural, -ing, -ed, -er, -ly, -tion)
     const patterns = queryWords.map(word => {
-        // Escape regex special chars
         const esc = word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-        // Match the root word + common suffixes
         return `${esc}[a-z]*`;
     });
 
@@ -108,9 +250,13 @@ function resetSearch() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-// ─── Utility ──────────────────────────────────────────────────────
+// ─── Utilities ────────────────────────────────────────────────────
 function escapeHtml(str) {
     const div = document.createElement('div');
     div.textContent = str;
     return div.innerHTML;
+}
+
+function escapeAttr(str) {
+    return str.replace(/'/g, "\\'").replace(/"/g, '&quot;');
 }

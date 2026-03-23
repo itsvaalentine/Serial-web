@@ -1,6 +1,237 @@
 [
   {
-    "id": 1,
+    "title": "Ted Bundy",
+    "text": "Ted Bundy was an American serial killer and rapist, one of the most notorious criminals of the late 20th century. Born Theodore Robert Cowell on November 24, 1946 in Burlington, Vermont, he grew up believing his grandparents were his parents and his mother was his older sister. Despite his troubled upbringing, Bundy was handsome, well-educated, and charming, traits he weaponized to lure victims. He typically targeted young attractive college women, approaching them in public while wearing a fake cast or arm sling to appear harmless. Once they were near his tan Volkswagen Beetle, he would strike them with a crowbar and force them inside. Bundy's criminal activities began in the mid-1970s across Washington, Utah, Colorado, and finally Florida. He escaped from custody twice in 1977 before resuming his killing spree in Tallahassee. In January 1978, he attacked students at the Chi Omega sorority at Florida State University, killing two and injuring three others. His last victim was 12-year-old Kimberly Leach. Bundy was captured on February 15, 1978 and convicted using bite mark evidence. He confessed to 30 murders but the true number may be much higher. He was executed by electric chair on January 24, 1989 at age 42. His case transformed criminal profiling and inspired numerous books, films, and documentaries including Ann Rule's The Stranger Beside Me.",
+    "source": "https://www.britannica.com/biography/Ted-Bundy",
+    "country": "United States",
+    "years_active": "1974 to 1978",
+    "proven_victims": "30",
+    "possible_victims": "100+",
+    "category": "American",
+    "id": 1
+  },
+  {
+    "title": "Jeffrey Dahmer",
+    "text": "Jeffrey Lionel Dahmer, known as the Milwaukee Cannibal, was an American serial killer and sex offender who murdered 17 men and boys between 1978 and 1991. Dahmer's crimes involved murder, dismemberment, necrophilia, and cannibalism. He lured victims to his Milwaukee apartment, drugged them with sedatives, and strangled them before engaging in disturbing acts with their remains. Police found photographs of dismembered bodies, preserved skulls, and a barrel containing acid and decomposing human remains when they arrested him on July 22, 1991. Dahmer's case exposed catastrophic failures in the Milwaukee police department. In May 1991, officers returned a disoriented 14-year-old Laotian boy named Konerak Sinthasomphone to Dahmer despite the boy's visible injuries and neighbors' pleas. Dahmer killed the boy shortly after. At trial, Dahmer was sentenced to 957 years in prison. He was killed by fellow inmate Christopher Scarver at the Columbia Correctional Institution on November 28, 1994. His sensational trial renewed public fascination with serial killers and prompted reforms in police training regarding missing persons and vulnerable populations. Netflix adapted his story in the 2022 series Monster: The Jeffrey Dahmer Story.",
+    "source": "https://www.history.com/articles/8-of-historys-most-notorious-serial-killers",
+    "country": "United States",
+    "years_active": "1978 to 1991",
+    "proven_victims": "17",
+    "possible_victims": "17",
+    "category": "American",
+    "id": 2
+  },
+  {
+    "title": "Jack the Ripper",
+    "text": "Jack the Ripper was an unidentified serial killer who terrorized London's impoverished Whitechapel district in the autumn of 1888. The killer murdered at least five women, all sex workers, slitting their throats and mutilating their bodies with surgical precision. The five canonical victims were Mary Ann Nichols, Annie Chapman, Elizabeth Stride, Catherine Eddowes, and Mary Jane Kelly. Police surgeon Thomas Bond assembled one of the earliest criminal profiles, suggesting the killer had anatomical knowledge. The Ripper sent taunting letters to Scotland Yard and local newspapers, including the famous Dear Boss letter and the From Hell letter which was accompanied by half a preserved human kidney. Despite the largest police investigation of the Victorian era, involving door-to-door inquiries across the East End and the use of bloodhounds, the killer was never identified. Over 100 suspects have been named in the century since, ranging from a Polish immigrant to painter Walter Sickert to even members of the British royal family. The case was officially closed in 1892 but remains the most enduring mystery in criminal history. The Ripper murders also represented a watershed moment in crime journalism, creating the first worldwide media frenzy around serial murder.",
+    "source": "https://www.britannica.com/list/7-of-historys-most-notorious-serial-killers",
+    "country": "United Kingdom",
+    "years_active": "1888",
+    "proven_victims": "5",
+    "possible_victims": "11+",
+    "category": "Unidentified",
+    "id": 3
+  },
+  {
+    "title": "John Wayne Gacy",
+    "text": "John Wayne Gacy, known as the Killer Clown, was an American serial killer who sexually assaulted and murdered at least 33 teenage boys and young men between 1972 and 1978 in Cook County, Illinois. Gacy was a prominent community figure who managed a construction business, organized annual neighborhood block parties, and performed as Pogo the Clown at charitable events and children's parties. His double life concealed horrific crimes. Gacy would lure young men with promises of employment in his construction company, then overpower, torture, and strangle them. He buried 26 of his victims in the crawl space beneath his home on Summerdale Avenue in Norwood Park, disposed of three others on his property, and threw four victims into the Des Plaines River. Gacy's arrest in December 1978 came after 15-year-old Robert Piest disappeared after telling his mother he was going to speak with Gacy about a job. A search warrant for Gacy's home revealed an overwhelming stench and human remains. Gacy was convicted of 33 murders and sentenced to death by a jury that deliberated for only two hours. He was executed by lethal injection on May 10, 1994 at Stateville Correctional Center. His case remains one of the most shocking examples of a respected community member hiding monstrous crimes.",
+    "source": "https://www.history.com/articles/8-of-historys-most-notorious-serial-killers",
+    "country": "United States",
+    "years_active": "1972 to 1978",
+    "proven_victims": "33",
+    "possible_victims": "33+",
+    "category": "American",
+    "id": 4
+  },
+  {
+    "title": "H.H. Holmes",
+    "text": "H.H. Holmes, born Herman Webster Mudgett in 1861 in New Hampshire, is widely considered America's first documented serial killer. A trained pharmacist and skilled con artist, Holmes moved to Chicago in advance of the 1893 World's Fair and constructed a three-story building at 601-603 West 63rd Street that became known as the Murder Castle. The building was an elaborate maze of death featuring secret passages, trap doors, soundproofed rooms, gas lines to asphyxiate guests, a greased chute leading to the basement, and hidden peepholes in every room. The basement contained a surgical table, a furnace for cremating bodies, and vats of acid for dissolving remains. Holmes would lure visitors, employees, and romantic interests into his hotel, kill them, and then sell their skeletons to medical schools or use their identities for insurance fraud schemes. His criminal enterprise unraveled when a fellow scammer, Benjamin Pitezel, turned him in over a financial disagreement. Holmes confessed to 27 murders, though investigators could only confirm nine. He was hanged on May 7, 1896 in Philadelphia. His extraordinary crimes inspired Erik Larson's 2003 bestseller The Devil in the White City and a subsequent film adaptation.",
+    "source": "https://www.biography.com/crime/g60732709/famous-serial-killers",
+    "country": "United States",
+    "years_active": "1891 to 1894",
+    "proven_victims": "9",
+    "possible_victims": "200",
+    "category": "American",
+    "id": 5
+  },
+  {
+    "title": "Harold Shipman",
+    "text": "Harold Frederick Shipman was a British doctor and the most prolific serial killer in modern history, with an estimated 218 to 250 confirmed victims. Working as a general practitioner in Hyde, Greater Manchester, Shipman murdered his patients over a 26-year period from 1972 to 1998. His method was devastatingly simple: he would visit elderly patients, often women living alone, administer a lethal dose of diamorphine (medical-grade heroin), and then falsify their medical records to indicate poor health. Because he was a trusted family doctor, deaths were not questioned. Shipman's downfall began when he forged the will of his final victim, 81-year-old Kathleen Grundy, attempting to inherit her estate. Her daughter Angela Woodruff, a solicitor, immediately recognized the forgery and contacted police. An investigation revealed a pattern of dramatically higher death rates among Shipman's patients compared to other local doctors. He was convicted of 15 murders in January 2000 and sentenced to life imprisonment. A subsequent inquiry led by Dame Janet Smith concluded that Shipman killed at least 218 patients. Shipman never confessed and hanged himself in his cell at Wakefield Prison on January 13, 2004. His case led to major reforms in death certification and controlled drug monitoring in the United Kingdom.",
+    "source": "https://www.history.com/articles/8-of-historys-most-notorious-serial-killers",
+    "country": "United Kingdom",
+    "years_active": "1972 to 1998",
+    "proven_victims": "218",
+    "possible_victims": "250",
+    "category": "International",
+    "id": 6
+  },
+  {
+    "title": "Ed Gein",
+    "text": "Edward Theodore Gein, known as the Butcher of Plainfield, was an American murderer and body snatcher whose gruesome crimes in rural Plainfield, Wisconsin during the 1950s shocked the nation and inspired some of horror cinema's most iconic characters. While Gein was convicted of only two murders, those of tavern owner Mary Hogan in 1954 and hardware store owner Bernice Worden in 1957, the true horror was discovered at his remote farmhouse. Police found a house of horrors containing human remains fashioned into everyday objects: lampshades and a wastebasket made from human skin, chairs upholstered with human flesh, skulls mounted on bedposts, a belt made of female nipples, bowls crafted from human skulls, and a suit made entirely from female skin. Gein had been systematically robbing local graves since his mother's death in 1945, exhuming recently buried middle-aged women who reminded him of his domineering mother Augusta. Gein was found legally insane and committed to the Central State Hospital for the Criminally Insane. His crimes directly inspired Robert Bloch's novel Psycho and Alfred Hitchcock's 1960 film adaptation, Tobe Hooper's The Texas Chain Saw Massacre in 1974, and the character Buffalo Bill in Thomas Harris's The Silence of the Lambs. Gein died of cancer in the Mendota Mental Health Institute on July 26, 1984.",
+    "source": "https://www.biography.com/crime/g60732709/famous-serial-killers",
+    "country": "United States",
+    "years_active": "1954 to 1957",
+    "proven_victims": "2",
+    "possible_victims": "2",
+    "category": "American",
+    "id": 7
+  },
+  {
+    "title": "Dennis Rader (BTK Killer)",
+    "text": "Dennis Lynn Rader, known as the BTK Killer, an acronym for Bind, Torture, Kill, terrorized the Wichita, Kansas area for over three decades. Between 1974 and 1991, Rader murdered at least 10 people, binding and torturing his victims before strangling them. What made Rader particularly chilling was his utterly ordinary exterior life. He was a married father of two, a Cub Scout leader, a compliance officer for the city of Park City, and the president of his Lutheran church congregation. Rader craved notoriety and recognition for his crimes, sending detailed letters and packages to police and local media outlets describing his murders in graphic detail. He coined his own nickname and included hand-drawn diagrams of crime scenes. After a long dormant period from 1991 to 2004, Rader resumed taunting authorities. His capture in February 2005 resulted from a critical mistake: he sent a floppy disk to a Wichita television station, which police traced to his church computer using deleted file metadata. Rader was sentenced to 10 consecutive life terms with a minimum of 175 years before the possibility of parole. In his confession, he stated he lived a normal life yet had a real dark mind, a chilling summary of the banality of evil.",
+    "source": "https://www.cbsnews.com/pictures/americas-deadliest-serial-killers/",
+    "country": "United States",
+    "years_active": "1974 to 1991",
+    "proven_victims": "10",
+    "possible_victims": "10",
+    "category": "American",
+    "id": 8
+  },
+  {
+    "title": "Aileen Wuornos",
+    "text": "Aileen Carol Wuornos was an American serial killer who murdered seven men along Florida highways between 1989 and 1990, making her one of the rare female serial killers who used a firearm and targeted strangers. Wuornos worked as a sex worker and claimed she killed her victims in self-defense after they assaulted or attempted to rape her during encounters. However, forensic evidence contradicted this claim in several cases, as many victims showed no signs of struggle. Wuornos had an extraordinarily traumatic childhood marked by abandonment by both parents, sexual abuse by her grandfather, and a teenage pregnancy. She was convicted and sentenced to death for six of the seven murders. Wuornos was executed by lethal injection on October 9, 2002 at the Florida State Prison. Before her execution, she made bizarre claims about being tortured by sonic pressure and being controlled by radio waves. Her life and crimes were depicted in the 2003 film Monster, for which Charlize Theron won the Academy Award for Best Actress. Wuornos remains a subject of debate among criminologists, with some viewing her as a predatory killer and others as a deeply traumatized victim of lifelong abuse who eventually snapped.",
+    "source": "https://www.history.com/articles/notorious-serial-killers",
+    "country": "United States",
+    "years_active": "1989 to 1990",
+    "proven_victims": "7",
+    "possible_victims": "7",
+    "category": "American",
+    "id": 9
+  },
+  {
+    "title": "The Zodiac Killer",
+    "text": "The Zodiac Killer was an unidentified American serial killer who operated in Northern California in the late 1960s and early 1970s. The Zodiac is confirmed to have killed at least five people and wounded two others between December 1968 and October 1969 in Benicia, Vallejo, Lake Berryessa, and San Francisco. However, the killer claimed responsibility for as many as 37 murders in letters sent to San Francisco Bay Area newspapers. The Zodiac's correspondence included four cryptograms, of which only two have been solved. The first cipher was cracked within a week by a schoolteacher and his wife in 1969. The second, known as the Z-340 cipher, remained unsolved for 51 years until a team of codebreakers finally decrypted it in December 2020. The Zodiac wore a distinctive executioner-style hood with a crosshair symbol during his attack at Lake Berryessa. Despite one of the largest investigations in California history involving thousands of suspects, the Zodiac has never been conclusively identified. Prominent suspects have included Arthur Leigh Allen, who was investigated extensively but never charged due to lack of physical evidence. The case inspired the 2007 David Fincher film Zodiac starring Jake Gyllenhaal and Robert Downey Jr. The case remains open with both the FBI and San Francisco Police Department.",
+    "source": "https://www.fbi.gov/history/famous-cases",
+    "country": "United States",
+    "years_active": "1968 to 1969",
+    "proven_victims": "5",
+    "possible_victims": "37",
+    "category": "Unidentified",
+    "id": 10
+  },
+  {
+    "title": "David Berkowitz (Son of Sam)",
+    "text": "David Richard Berkowitz, known as the Son of Sam, terrorized New York City during the summer of 1976 through 1977, killing six people and wounding seven others with a .44 caliber Charter Arms Bulldog revolver. Berkowitz targeted young women and couples parked in cars, primarily in the boroughs of the Bronx, Queens, and Brooklyn. The case triggered one of the largest manhunts in New York City history and caused citywide panic, with residents afraid to go out after dark and brunette women dyeing their hair blonde to avoid matching the victim profile. Berkowitz sent taunting handwritten letters to police and newspapers, including one addressed to NYPD Captain Joseph Borrelli and another to New York Daily News columnist Jimmy Breslin, claiming that a demon speaking through his neighbor Sam Carr's dog Harvey commanded him to kill. Berkowitz was captured on August 10, 1977, outside his Yonkers apartment, and immediately confessed to all the shootings. He was sentenced to six consecutive 25-years-to-life sentences. His arrest led to the passage of the Son of Sam law in New York, preventing criminals from profiting from publicity related to their crimes. Berkowitz later recanted the demonic possession claims, admitting he had fabricated the story. He became a born-again Christian in prison and has been denied parole multiple times.",
+    "source": "https://www.britannica.com/topic/list-of-serial-killers-2026519",
+    "country": "United States",
+    "years_active": "1976 to 1977",
+    "proven_victims": "6",
+    "possible_victims": "6",
+    "category": "American",
+    "id": 11
+  },
+  {
+    "title": "Gary Ridgway (Green River Killer)",
+    "text": "Gary Leon Ridgway, known as the Green River Killer, is one of the most prolific convicted serial killers in American history. Ridgway murdered at least 49 women, and possibly as many as 80, in the Seattle and Tacoma, Washington area during the 1980s and 1990s. Most of his victims were sex workers and vulnerable runaways whom he picked up along the Pacific Highway South corridor near the Seattle-Tacoma International Airport. Ridgway strangled his victims, often during or after sex, and dumped their bodies in forested areas near the Green River in King County, sometimes returning to the dump sites to have sexual contact with the corpses. Despite being identified as a suspect early in the investigation and even passing a polygraph test in 1984, Ridgway evaded capture for nearly two decades. He continued living an outwardly normal life, working as a truck painter at Kenworth and attending church regularly. Advances in DNA technology finally linked him to several victims, and he was arrested on November 30, 2001. In 2003, Ridgway pleaded guilty to 48 counts of aggravated first-degree murder in a plea deal that spared him the death penalty in exchange for helping locate the remains of still-missing victims. He was sentenced to life in prison without the possibility of parole.",
+    "source": "https://www.cbsnews.com/pictures/americas-deadliest-serial-killers/",
+    "country": "United States",
+    "years_active": "1982 to 1998",
+    "proven_victims": "49",
+    "possible_victims": "80+",
+    "category": "American",
+    "id": 12
+  },
+  {
+    "title": "Samuel Little",
+    "text": "Samuel Little is recognized by the FBI as the most prolific serial killer in American history. Between 1970 and 2005, Little confessed to 93 murders across 19 states, of which the FBI has confirmed at least 60. His victims were predominantly vulnerable women on the margins of society: sex workers, drug addicts, and homeless individuals whose disappearances were unlikely to trigger major investigations. Little's preferred method was manual strangulation, which often left no obvious signs of foul play. As a result, many of his victims' deaths were attributed to drug overdoses, accidents, or natural causes. Little was a transient who traveled extensively across the United States, making it difficult to connect crimes across jurisdictions. He was arrested multiple times for assault, fraud, and drug offenses, but was not linked to the murders until 2012 when DNA evidence connected him to three Los Angeles killings. In 2014, he was convicted of three counts of murder and later pleaded guilty to additional murders in Ohio and Texas. To help identify his unknown victims, Little provided detailed descriptions and the FBI commissioned drawings based on his recollections. Little died in a California hospital on December 30, 2020 at age 80. His case exposed systemic failures in how missing persons cases involving marginalized populations are investigated.",
+    "source": "https://www.fbi.gov/history/famous-cases",
+    "country": "United States",
+    "years_active": "1970 to 2005",
+    "proven_victims": "60",
+    "possible_victims": "93",
+    "category": "American",
+    "id": 13
+  },
+  {
+    "title": "Richard Ramirez (Night Stalker)",
+    "text": "Richard Ramirez, known as the Night Stalker, was an American serial killer, rapist, and burglar who terrorized the greater Los Angeles and San Francisco areas from June 1984 to August 1985. Unlike most serial killers, Ramirez had no consistent victim profile, killing men, women, and children of various ages and ethnic backgrounds. He entered homes through unlocked doors and windows, often attacking residents while they slept. His crimes included murder by shooting, stabbing, and bludgeoning, as well as sexual assault, robbery, and forced acts of Satanism, such as compelling victims to swear allegiance to the devil. Ramirez's killing spree caused unprecedented panic across California, with residents purchasing firearms and installing additional locks on their doors and windows. Gun sales spiked dramatically during the summer of 1985. His capture on August 31, 1985, came when residents of an East Los Angeles neighborhood recognized him from published photographs and chased him through the streets until police arrived. Ramirez was convicted of 13 murders, 5 attempted murders, 11 sexual assaults, and 14 burglaries. He was sentenced to death and spent over two decades on California's death row before dying of B-cell lymphoma on June 7, 2013. His case illustrated the vulnerability of suburban homes to determined intruders.",
+    "source": "https://en.wikipedia.org/wiki/Serial_killer",
+    "country": "United States",
+    "years_active": "1984 to 1985",
+    "proven_victims": "13",
+    "possible_victims": "14+",
+    "category": "American",
+    "id": 14
+  },
+  {
+    "title": "Elizabeth Bathory",
+    "text": "Elizabeth Bathory, known as the Blood Countess, was a Hungarian noblewoman from the powerful Bathory family who lived from 1560 to 1614. She is often cited as one of the most prolific female serial killers in recorded history. Bathory was accused of torturing and killing hundreds of young women, primarily servants and minor noblewomen, at her Csejte Castle in the Carpathian Mountains of present-day Slovakia. The Guinness Book of World Records has cited her with up to 650 victims, though modern historians debate the extent of her crimes. Some scholars argue that the accusations were politically motivated, designed to allow King Matthias II to seize the Bathory family's vast estates and avoid repaying substantial debts he owed to Elizabeth. Testimony from over 300 witnesses was collected during the investigation. Legends claim she bathed in the blood of young virgins to preserve her youth, though this detail may be a later embellishment. Bathory was never formally tried or convicted. Instead, she was walled into a set of rooms in her castle in 1610, where she remained confined until her death on August 21, 1614. Her story has inspired countless works of fiction, from vampire literature to heavy metal music, and she may have influenced Bram Stoker's portrayal of Count Dracula.",
+    "source": "https://www.biography.com/crime/g60732709/famous-serial-killers",
+    "country": "Hungary",
+    "years_active": "1585 to 1610",
+    "proven_victims": "80",
+    "possible_victims": "650",
+    "category": "International",
+    "id": 15
+  },
+  {
+    "title": "Andrei Chikatilo",
+    "text": "Andrei Romanovich Chikatilo, known as the Butcher of Rostov and the Red Ripper, was a Soviet serial killer who murdered at least 52 women and children between 1978 and 1990 across the Russian, Ukrainian, and Uzbek Soviet Socialist Republics. Chikatilo was a former schoolteacher who targeted young runaways and travelers at bus stops and train stations, luring them to secluded forest areas where he would stab, mutilate, and sometimes cannibalize them. The investigation was severely hampered by Soviet-era bureaucracy and the ideological conviction that serial killing was a purely capitalist phenomenon that could not occur in a communist society. In a critical error, Chikatilo was questioned early in the investigation but released because his blood type did not match semen found at crime scenes, a discrepancy later attributed to a rare biological condition where blood type and secretion type differ. The botched investigation led to the wrongful execution of another man, Aleksandr Kravchenko. Chikatilo was finally captured in November 1990 through an elaborate surveillance operation at train stations. He confessed to 56 murders and was convicted of 52 in October 1992. Chikatilo was executed by a single gunshot to the back of the head on February 14, 1994. His case fundamentally changed Soviet and Russian approaches to criminal investigation.",
+    "source": "https://en.wikipedia.org/wiki/Serial_killer",
+    "country": "Soviet Union, Russia",
+    "years_active": "1978 to 1990",
+    "proven_victims": "52",
+    "possible_victims": "56",
+    "category": "International",
+    "id": 16
+  },
+  {
+    "title": "Charles Manson",
+    "text": "Charles Milles Manson was an American cult leader whose followers, known as the Manson Family, committed a series of brutal murders in Los Angeles in the summer of 1969. While Manson did not personally carry out most of the killings, he directed and orchestrated the attacks that left nine people dead across four locations. The most infamous was the murder of pregnant actress Sharon Tate and four others at her home on Cielo Drive on August 8, 1969. The following night, Manson's followers killed grocery store owner Leno LaBianca and his wife Rosemary in their Los Feliz home, writing messages in the victims' blood on the walls including the word HEALTER SKELTER. Manson believed these murders would ignite an apocalyptic race war he named Helter Skelter after the Beatles song. A petty criminal who spent much of his youth in reformatories and prisons, Manson developed a magnetic charisma that attracted vulnerable young people, predominantly women, to his commune at Spahn Ranch. Manson and several followers were convicted of first-degree murder and conspiracy in 1971 and sentenced to death, later commuted to life imprisonment when California temporarily abolished the death penalty. Manson became a symbol of the dark underbelly of 1960s counterculture. He died of natural causes at Kern County Hospital on November 19, 2017 at age 83.",
+    "source": "https://en.wikipedia.org/wiki/Serial_killer",
+    "country": "United States",
+    "years_active": "1969",
+    "proven_victims": "9",
+    "possible_victims": "9+",
+    "category": "American",
+    "id": 17
+  },
+  {
+    "title": "Belle Gunness",
+    "text": "Belle Gunness, known as Lady Bluebeard, was a Norwegian-American serial killer who is believed to have murdered more than 40 people at her farm in La Porte, Indiana in the early 1900s. Born Brynhild Paulsdatter Storset in Selbu, Norway in 1859, Gunness immigrated to the United States in 1881. She collected substantial insurance payouts following the suspicious deaths of her two husbands and two of her children. Gunness then devised an ingenious scheme to lure wealthy suitors to their deaths. She placed personal advertisements in Scandinavian-language newspapers across the Midwest, presenting herself as a comely widow seeking a companion. Suitors were instructed to bring cash to demonstrate their financial seriousness. Upon arrival at her farm, they were never seen again. In April 1908, Gunness's farmhouse burned to the ground. Inside the ruins, investigators found a headless female body along with the remains of her three children. Excavation of the property revealed dismembered body parts of more than 40 victims buried across the grounds. Intense debate persists over whether the headless body was truly Gunness or a victim she used to stage her own death. Sightings of Gunness were reported for years afterward, but she was never found. Her case remains one of the most fascinating unsolved mysteries in American criminal history.",
+    "source": "https://www.history.com/articles/notorious-serial-killers",
+    "country": "United States",
+    "years_active": "1884 to 1908",
+    "proven_victims": "40+",
+    "possible_victims": "40+",
+    "category": "American",
+    "id": 18
+  },
+  {
+    "title": "Alexander Pichushkin (Chessboard Killer)",
+    "text": "Alexander Yuryevich Pichushkin, known as the Chessboard Killer, was a Russian serial killer who murdered at least 48 people in Moscow's Bitsa Park between 2001 and 2006. His nickname originated from a chessboard police discovered in his apartment with dates written on nearly all 64 squares, each corresponding to a planned or completed murder. Pichushkin's stated goal was to fill every square on the board. He primarily targeted elderly homeless men, approaching them with offers of vodka to drink in tribute to his recently deceased dog. Once his victims were intoxicated, Pichushkin would strike them on the head with a hammer and push their bodies into a sewer opening in the park. He escalated his killing over time and began targeting women and younger victims as well. Pichushkin was arrested in June 2006 after security cameras captured him walking with his final victim, a female coworker he had lured to the park. He was convicted of 49 murders and three attempted murders in October 2007. During his trial, Pichushkin showed no remorse, declaring that a life without murder was like a life without food. He was sentenced to life imprisonment with the first 15 years in solitary confinement. His case drew inevitable comparisons to Andrei Chikatilo, Russia's previous most notorious serial killer.",
+    "source": "https://www.biography.com/crime/g60732709/famous-serial-killers",
+    "country": "Russia",
+    "years_active": "2001 to 2006",
+    "proven_victims": "48",
+    "possible_victims": "49+",
+    "category": "International",
+    "id": 19
+  },
+  {
+    "title": "Monster of Florence",
+    "text": "The Monster of Florence is the name given to an unidentified Italian serial killer or group of killers responsible for the murders of 16 people between 1968 and 1985. The killer targeted young couples in parked cars in the scenic hills surrounding Florence, Tuscany. The attacks followed a consistent pattern: the male victim was shot first with a .22 caliber Beretta pistol, and then the female victim was killed and mutilated, with the killer removing specific body parts using a surgical-style cutting tool. The same gun was linked to all the murders through ballistic analysis. Several suspects were investigated over the decades, and some were convicted, but many criminologists and investigators believe the true perpetrator was never identified. The case became internationally famous when American journalist Douglas Preston moved to Florence and began investigating the murders, leading to the 2008 book The Monster of Florence co-authored with Italian journalist Mario Spezi. Thomas Harris also visited Florence while researching the case, and elements of the investigation inspired his 1999 novel Hannibal, including scenes set in the Palazzo Vecchio. The case exposed deep flaws in the Italian judicial system and remains officially unsolved. It stands as one of Europe's most enduring serial murder mysteries.",
+    "source": "https://www.britannica.com/topic/list-of-serial-killers-2026519",
+    "country": "Italy",
+    "years_active": "1968 to 1985",
+    "proven_victims": "16",
+    "possible_victims": "16",
+    "category": "Unidentified",
+    "id": 20
+  },
+  {
+    "title": "Hillside Stranglers: Kenneth Bianchi and Angelo Buono",
+    "text": "The Hillside Stranglers were cousins Kenneth Bianchi and Angelo Buono Jr., who together raped, tortured, and murdered 10 young women and girls in the Los Angeles area between October 1977 and February 1978. The pair posed as undercover police officers to lure victims into their car, then brought them to Buono's upholstery shop in Glendale where they were assaulted and killed. The victims' naked bodies were found dumped on hillsides and roadsides throughout the Los Angeles metropolitan area, earning the unknown killer the Hillside Strangler nickname. Victims ranged in age from 12 to 28 and included students, sex workers, and aspiring actresses. Initially, police believed a single killer was responsible. The case went cold until Bianchi was arrested in Bellingham, Washington in January 1979 for the murders of two Western Washington University students he committed on his own. During interrogation, Bianchi attempted to fake multiple personality disorder to avoid prosecution but was exposed by forensic psychiatrists. He then implicated his cousin Buono. Bianchi received life in prison in exchange for his testimony, and Buono was sentenced to life without parole in 1984. Buono died in prison in 2002. The case demonstrated that serial killers can operate in pairs and highlighted the challenges of multi-jurisdictional investigations.",
+    "source": "https://www.oxygen.com/crime-news/who-are-the-most-notorious-serial-killers-ted-bundy-ed-gein-more",
+    "country": "United States",
+    "years_active": "1977 to 1979",
+    "proven_victims": "12",
+    "possible_victims": "12",
+    "category": "American",
+    "id": 21
+  },
+  {
+    "id": 22,
     "title": "Luis Garavito",
     "text": "Luis Garavito was a serial killer from Colombia, Ecuador, Venezuela. They were active from 1992 to 1999. The proven victim count is 138, with a possible total of 172–300+. Child-murderer, torture-killer, and rapist known as \"La Bestia\" (\"The Beast\"). Confessed to killing 140 boys between eight and 16 years old over a seven-year period in Colombia and neighboring countries. He is suspected of murdering over 300 victims, mostly street children. Garavito was originally sentenced to 1,853 years in prison, but this was later reduced to 22 years after he led police to many of the bodies of his victims. He is scheduled to become eligible for parole in 2023.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -11,7 +242,7 @@
     "possible_victims": "172–300+"
   },
   {
-    "id": 2,
+    "id": 23,
     "title": "Pedro López",
     "text": "Pedro López was a serial killer from Colombia, Peru, Ecuador. They were active from 1969 to 1979. The proven victim count is 110, with a possible total of 300+. Child-murderer and rapist, known as \"The Monster of the Andes\". Targeted young girls, between the ages of eight and 12. Arrested in 1980 and convicted in 1983 of killing three young girls, but claimed to have killed hundreds. Despite being believed to be one of the most prolific serial killers of the twentieth century, he was released in the late 1990s.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -22,7 +253,7 @@
     "possible_victims": "300+"
   },
   {
-    "id": 3,
+    "id": 24,
     "title": "Javed Iqbal",
     "text": "Javed Iqbal was a serial killer from Pakistan. They were active from 1998 to 1999. The proven victim count is 100, with a possible total of 100. Child-murderer and rapist, known as \"Kukri\", Iqbal murdered 100 street children by strangling them and covering up his crimes by dissolving the bodies with acid. He was arrested in 1999 thanks to a letter he sent to a newspaper, and was set to be executed in the manner described by the judge who stated, \"You will be strangled to death in front of the parents whose children you killed, Your body will then be cut into 100 pieces and put in acid, the same way you killed the children.\" However, he died in custody before he could be executed.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -33,7 +264,7 @@
     "possible_victims": "100"
   },
   {
-    "id": 4,
+    "id": 25,
     "title": "Mikhail Popkov",
     "text": "Mikhail Popkov was a serial killer from Russia. They were active from 1992 to 2010. The proven victim count is 83, with a possible total of 83+. Serial rapist-killer nicknamed \"The Werewolf\", who was active for two decades in Angarsk, Irkutsk and Vladivostok. After being convicted of 22 murders in 2015, he confessed to an additional 59 murders, of which he was convicted of 56 in 2018. In July 2020, Popkov confessed to more killings, bringing the total number of admitted victims to 83. Sentenced to life.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -44,7 +275,7 @@
     "possible_victims": "83+"
   },
   {
-    "id": 5,
+    "id": 26,
     "title": "Daniel Camargo Barbosa",
     "text": "Daniel Camargo Barbosa was a serial killer from Colombia, Ecuador, Brazil (alleged). They were active from 1974 to 1986. The proven victim count is 72, with a possible total of 180. Child and woman murderer, believed to have possibly raped and killed over 150 victims, primarily targeting female children as they were more likely to be virgins. Confessed to killing 72 victims. He strangled young girls in Colombia and was arrested, but he escaped from prison and he started killing in Ecuador; rearrested in 1986, he was incarcerated in the same Ecuadorian prison as 300+ serial killer Pedro López. Camargo was killed in jail by the nephew of one of his victims.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -55,7 +286,7 @@
     "possible_victims": "180"
   },
   {
-    "id": 6,
+    "id": 27,
     "title": "Pedro Rodrigues Filho",
     "text": "Pedro Rodrigues Filho was a serial killer from Brazil. They were active from 1967 to 2003. The proven victim count is 71, with a possible total of 100+. He claimed to have killed over 100 victims, 47 of them inmates. He also killed his father and ate a piece of his heart. He killed his first two victims at the age of 14; he was first arrested in 1973. Convicted and sentenced to 128 years, but the maximum one can serve in Brazil is 30 years. Was released in 2018.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -66,7 +297,7 @@
     "possible_victims": "100+"
   },
   {
-    "id": 7,
+    "id": 28,
     "title": "Kampatimar Shankariya",
     "text": "Kampatimar Shankariya was a serial killer from India. They were active from 1977 to 1978. The proven victim count is 70, with a possible total of 70+. Indian serial killer who used a hammer to kill over 70 men and women between 1978 and 1979. Was hanged in 1979, his last words were, \"I have murdered in vain\", he declared. \"Nobody should become like me.\".",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -77,7 +308,7 @@
     "possible_victims": "70+"
   },
   {
-    "id": 8,
+    "id": 29,
     "title": "Yang Xinhai",
     "text": "Yang Xinhai was a serial killer from China. They were active from 2000 to 2003. The proven victim count is 67, with a possible total of 67. Known as the \"Monster Killer\". Would enter victims' homes at night and kill using axes, meat cleavers, hammers, and shovels. Executed by gunshot in 2004.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -88,18 +319,7 @@
     "possible_victims": "67"
   },
   {
-    "id": 9,
-    "title": "Samuel Little",
-    "text": "Samuel Little was a serial killer from United States. They were active from 1970 to 2005. The proven victim count is 60, with a possible total of 93. Was convicted of killing three women, but later investigations linked 31 other murders to him. Little is now thought to be America's most prolific serial killer. He claimed he killed as many as 93 victims total, three above his initial confession of 90, the FBI later confirmed a total of 50 murders linked to Little. The investigations into his crimes are ongoing.",
-    "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
-    "category": "American",
-    "country": "United States",
-    "years_active": "1970 to 2005",
-    "proven_victims": "60",
-    "possible_victims": "93"
-  },
-  {
-    "id": 10,
+    "id": 30,
     "title": "Giuseppe Greco",
     "text": "Giuseppe Greco was a serial killer from Italy. They were active from 1981 to 1983. The proven victim count is 58, with a possible total of 80-300. During the Second Mafia War, from 1981 to 1983 committed dozens of murders, often with his favorite weapon, an AK-47. He was eventually convicted in absentia of 58 murders, but it is believed that he committed at least 80 murders and possibly as many as 300. Murdered in his home in 1985.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -110,18 +330,7 @@
     "possible_victims": "80-300"
   },
   {
-    "id": 11,
-    "title": "Andrei Chikatilo",
-    "text": "Andrei Chikatilo was a serial killer from Soviet Union. They were active from 1978 to 1990. The proven victim count is 53, with a possible total of 56. Known as \"The Butcher of Rostov\", \"The Red Ripper\" or \"The Rostov Ripper\". Convicted of the murder of 53 women and children between 1978 and 1990. One man was previously convicted and executed for his first murder. Executed by gunshot in 1994.",
-    "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
-    "category": "International",
-    "country": "Soviet Union",
-    "years_active": "1978 to 1990",
-    "proven_victims": "53",
-    "possible_victims": "56"
-  },
-  {
-    "id": 12,
+    "id": 31,
     "title": "Anatoly Onoprienko",
     "text": "Anatoly Onoprienko was a serial killer from Soviet Union, Ukraine. They were active from 1989 to 1996. The proven victim count is 52, with a possible total of 52+. Known as \"The Beast of Ukraine\", \"The Terminator\" and \"Citizen O\". Convicted of the murders of nine people in 1989 and 43 people in 1995–1996. Traveled throughout Europe illegally from 1990 to 1995; whether he killed during this time is unknown. Sentenced to death, later commuted to imprisonment for life. Died from heart failure in 2013.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -132,7 +341,7 @@
     "possible_victims": "52+"
   },
   {
-    "id": 13,
+    "id": 32,
     "title": "Ivan Maleshoff",
     "text": "Ivan Maleshoff was a serial killer from Soviet Union. They were active from 1934 to 1935. The proven victim count is 50, with a possible total of 50. Known as, \"Bluebeard of Kharkiv\"; Ivan Stepanovich Maleshoff was an electrical engineer and prolific albeit little known Soviet serial killer. He is purported to have killed 20 women in Kharkiv over a period of several months in 1935 with a knife, leaving behind little clues as to his identity other than taunting letters to police. Reportedly, apprehended by authorities as he attempted to kill his next victim, completely unaware he had been tailed after seen fleeing arrest by an undercover female officer earlier in the day. Prior to his execution, he confessed to an additional 30 murders in nearby Kyiv in 1934. Was convicted and executed in 1935 by firing squad at the age of 40.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -143,7 +352,7 @@
     "possible_victims": "50"
   },
   {
-    "id": 14,
+    "id": 33,
     "title": "Florisvaldo de Oliveira",
     "text": "Florisvaldo de Oliveira was a serial killer from Brazil. They were active from 1982. The proven victim count is 50, with a possible total of 50+. Known as \"Cabo Bruno\"; former police officer and vigilante who murdered criminals in the outskirts of São Paulo; murdered by unknown assailants in 2012.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -154,7 +363,7 @@
     "possible_victims": "50+"
   },
   {
-    "id": 15,
+    "id": 34,
     "title": "Willy Pickton",
     "text": "Willy Pickton was a serial killer from Canada. They were active from 1983 to 2002. The proven victim count is 49, with a possible total of 49. Nicknamed \"The Butcher\"; Robert Pickton was a Canadian serial killer who killed 49 women and disposed of their bodies by feeding them to his pigs. He was convicted of only 6 murders but charged for his proven 49 victims. Unfortunately, much to the anger of the victims families, the remaining 43 charges were stayed or dropped. Sentenced to life.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -165,7 +374,7 @@
     "possible_victims": "49"
   },
   {
-    "id": 16,
+    "id": 35,
     "title": "Gary Ridgway",
     "text": "Gary Ridgway was a serial killer from United States. They were active from 1982 to 2000. The proven victim count is 49, with a possible total of 71–90+. Truck painter who confessed to killing 71 women. Also known as The Green River Killer. He almost exclusively targeted sex workers from Seattle. Suspected of killing over 90 victims, confessed to 71, convicted of 49. Sentenced to life without parole.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -176,7 +385,7 @@
     "possible_victims": "71–90+"
   },
   {
-    "id": 17,
+    "id": 36,
     "title": "Alexander Pichushkin",
     "text": "Alexander Pichushkin was a serial killer from Russia. They were active from 1992 to 2006. The proven victim count is 48, with a possible total of 60. Known as the Chessboard Killer. Convicted of murdering 48 victims and suspected of killing 60. Claimed to have murdered 62 people, because he did not know that two of his victims had survived; stated goal of becoming Russia's most prolific serial killer. Sentenced to imprisonment for life.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -187,7 +396,7 @@
     "possible_victims": "60"
   },
   {
-    "id": 18,
+    "id": 37,
     "title": "Ahmad Suradji",
     "text": "Ahmad Suradji was a serial killer from Indonesia. They were active from 1986 to 1997. The proven victim count is 42, with a possible total of 70–80+. Convicted of strangling at least 42 women and girls in a series of ritual slayings he believed would give him magical powers. Executed by firing squad in 2008.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -198,7 +407,7 @@
     "possible_victims": "70–80+"
   },
   {
-    "id": 19,
+    "id": 38,
     "title": "Raman Raghav",
     "text": "Raman Raghav was a serial killer from India. They were active from 1965 to 1968. The proven victim count is 41, with a possible total of 41. In the late 1960s Raman Raghav went on a violent rampage in Mumbai, India. He bludgeoned 41 people to death inside their huts while they slept. Died of kidney failure in 1995.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -209,7 +418,7 @@
     "possible_victims": "41"
   },
   {
-    "id": 20,
+    "id": 39,
     "title": "Moses Sithole",
     "text": "Moses Sithole was a serial killer from South Africa. They were active from 1994 to 1995. The proven victim count is 38, with a possible total of 76. Known as South Africa's Ted Bundy. Preyed on unemployed women, posing as a businessman and luring his victims with the prospects of a job, before leading them to an isolated place, where he raped, tortured, and murdered them. Sentenced to 2410 years imprisonment with a non-parole period of 930 years.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -220,7 +429,7 @@
     "possible_victims": "76"
   },
   {
-    "id": 21,
+    "id": 40,
     "title": "Serhiy Tkach",
     "text": "Serhiy Tkach was a serial killer from Soviet Union, Ukraine. They were active from 1984 to 2005. The proven victim count is 36, with a possible total of 80–100. A former Ukrainian police criminal investigator, suffocated girls aged between eight and 18 and performed sexual acts on their bodies after they were dead. Claims to have killed 100. Sentenced to imprisonment for life. Died from heart failure in 2018.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -231,7 +440,7 @@
     "possible_victims": "80–100"
   },
   {
-    "id": 22,
+    "id": 41,
     "title": "Gennady Mikhasevich",
     "text": "Gennady Mikhasevich was a serial killer from Soviet Union. They were active from 1971 to 1985. The proven victim count is 36, with a possible total of 43–55+. Strangled women. Besides killing, he also robbed his victims of money and valuable items (that he would sometimes give to his wife as a gift). Executed by firing squad in 1987.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -242,7 +451,7 @@
     "possible_victims": "43–55+"
   },
   {
-    "id": 23,
+    "id": 42,
     "title": "Vera Renczi",
     "text": "Vera Renczi was a serial killer from Kingdom of Romania, Yugoslavia, Hungary (alleged). They were active from 1920 to 1930. The proven victim count is 35, with a possible total of ~35. Romanian serial killer nicknamed, \"The Black Widow\" convicted of killing 35 men through arsenic poisoning but confessed to only killing 32 victims. Renczi is one of the world's most prolific female serial killers. However, there is very little information about Renczi and her crimes because personal information (criminal history, academic records, etc.) were not cataloged as well as they are today, making some criminologists believe she was a figure of Romanian folklore rather than an actual person.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -253,29 +462,7 @@
     "possible_victims": "~35"
   },
   {
-    "id": 24,
-    "title": "Ted Bundy",
-    "text": "Ted Bundy was a serial killer from United States. They were active from 1974 to 1978. The proven victim count is 35, with a possible total of 36–100+. American serial killer known for his charisma and good looks. Bundy officially confessed to 30 homicides, but had confessed to killing 35–36 women in the past, and some estimates run upwards of 100 or more. Infamous for escaping from prison twice and murdering multiple victims in one day; sometimes abducting women from the same location within hours of one another. He was executed by electric chair in 1989.",
-    "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
-    "category": "American",
-    "country": "United States",
-    "years_active": "1974 to 1978",
-    "proven_victims": "35",
-    "possible_victims": "36–100+"
-  },
-  {
-    "id": 25,
-    "title": "John Wayne Gacy",
-    "text": "John Wayne Gacy was a serial killer from United States. They were active from 1972 to 1978. The proven victim count is 33, with a possible total of 34+. Known to have murdered a minimum of 33 teenage boys and young men between 1972 and 1978, 26 of whom he buried in the crawl space of his Chicago home. Gacy was known as the \"Killer Clown\" due to the fact he often entertained children at social events dressed in a self devised clown costume. Executed by lethal injection in 1994.",
-    "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
-    "category": "American",
-    "country": "United States",
-    "years_active": "1972 to 1978",
-    "proven_victims": "33",
-    "possible_victims": "34+"
-  },
-  {
-    "id": 26,
+    "id": 43,
     "title": "Fernando Hernández Leyva",
     "text": "Fernando Hernández Leyva was a serial killer from Mexico. They were active from 1982 to 1999. The proven victim count is 33, with a possible total of 100+. Confessed to 100 murders and six kidnappings at the time of his arrest in 1999 (he had been arrested previously in 1982 and 1986, the second time for murder, but escaped from prison), but later retracted and claimed that he had been beaten by the police and his family threatened in order to force him to confess. Accused of as many as 137 murders in five southern Mexican states, convicted of 33 murders and sentenced 50 years in prison. Tried unsuccessfully to kill himself in prison. If his claim of 100+ victims were true then Leyva would be Mexico's most prolific documented serial killer.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -286,7 +473,7 @@
     "possible_victims": "100+"
   },
   {
-    "id": 27,
+    "id": 44,
     "title": "Ramadan Abdel Rehim Mansour",
     "text": "Ramadan Abdel Rehim Mansour was a serial killer from Egypt. They were active from 1999 to 2006. The proven victim count is 32, with a possible total of 32+. Gang leader known as al-Tourbini (\"The Express Train\"). Raped and tortured homeless children, mostly boys aged 10 to 14 years old, aboard the trains between Cairo, Alexandria, Qalyubia and Beni Sueif. The victims were usually thrown off the moving train when they were dead or in agony; other times they were thrown into the Nile or buried alive. Executed in 2010.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -297,7 +484,7 @@
     "possible_victims": "32+"
   },
   {
-    "id": 28,
+    "id": 45,
     "title": "Radik Tagirov",
     "text": "Radik Tagirov was a serial killer from Russia. They were active from 2011 to 2012. The proven victim count is 32, with a possible total of 32. Serial killer called Radik Tagirov who murdered elderly women in several Russian regions; Kazakhstani native Pavel Shayakhmetov, found guilty of killing two elderly women in Samara, was arrested on suspicion of committing these murders [46]",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -308,7 +495,7 @@
     "possible_victims": "32"
   },
   {
-    "id": 29,
+    "id": 46,
     "title": "Karl Denke",
     "text": "Karl Denke was a serial killer from Germany. They were active from 1900 to 1924. The proven victim count is 30, with a possible total of 42+. Killed and cannibalized poor travelers and homeless vagrants. Kept a ledger recording his murders with at least 31 names in it (including Vincenz Olivier, his only surviving victim), thus confirming at least 30 victims. But due to the massive amount of human remains found in his apartment, his kill count is suspected by many to exceed 42 victims. Committed suicide by hanging himself in his holding cell before he could be tried.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -319,7 +506,7 @@
     "possible_victims": "42+"
   },
   {
-    "id": 30,
+    "id": 47,
     "title": "Cedric Maake",
     "text": "Cedric Maake was a serial killer from South Africa. They were active from 1996 to 1997. The proven victim count is 27, with a possible total of 35+. Known as the \"Wemmer Pan Killer\" and \"Hammer Killer\". He killed his victims with different instruments such as guns, rocks, a knife, and a hammer. Authorities attributed the murders to two serial killers because of the inconsistent modus operandi. In some cases he killed his victims with a rock, in others he shot them, and in others he murdered tailors with a hammer. Maake was arrested after Moses Sithole was found guilty of 38 killings and sentenced to 1,340 years in prison.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -330,7 +517,7 @@
     "possible_victims": "35+"
   },
   {
-    "id": 31,
+    "id": 48,
     "title": "Mariam Soulakiotis",
     "text": "Mariam Soulakiotis was a serial killer from Greece. They were active from 1939 to 1951. The proven victim count is 27, with a possible total of 27+. Known as \"The Woman Rasputin\"; convent abbot believed to have murdered wealthy women and children who came into her church; the true number of her victims is a matter of debate. Her trial cites that she murdered 27 and killed an additional 150 children through neglect. Was sentenced to life and died in 1954.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -341,7 +528,7 @@
     "possible_victims": "27+"
   },
   {
-    "id": 32,
+    "id": 49,
     "title": "The Stoneman",
     "text": "The Stoneman was a serial killer from India. They were active from 1985 to 1989. The proven victim count is 25, with a possible total of 25+. 12 homeless people were murdered in their sleep in Bombay between 1985 and 1987, and 13 in Calcutta in 1989—in all cases, by dropping a large rock over their head (an additional victim escaped, but could not identify the attacker). No one was ever charged with any of the murders.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -352,7 +539,7 @@
     "possible_victims": "25+"
   },
   {
-    "id": 33,
+    "id": 50,
     "title": "Juan Corona",
     "text": "Juan Corona was a serial killer from United States. They were active from 1971. The proven victim count is 25, with a possible total of 25+. Corona was convicted of murdering ranch laborers and burying them in orchards. He was sentenced to 25 terms life imprisonment. Died from natural causes in 2019.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -363,7 +550,7 @@
     "possible_victims": "25+"
   },
   {
-    "id": 34,
+    "id": 51,
     "title": "Fritz Haarmann",
     "text": "Fritz Haarmann was a serial killer from Germany. They were active from 1918 to 1924. The proven victim count is 24, with a possible total of 27+. Also known as the Butcher of Hanover and the Vampire of Hanover, because of his preferred method of killing by biting through his victim's throat, sometimes while sodomizing them. He would then dump the bodies in the nearby river Leine. Believed to have been responsible for the murder of 27 boys and young men, he was convicted, found guilty of 24 murders and executed by guillotine in 1925.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -374,7 +561,7 @@
     "possible_victims": "27+"
   },
   {
-    "id": 35,
+    "id": 52,
     "title": "Béla Kiss",
     "text": "Béla Kiss was a serial killer from Austria-Hungary. They were active from 1912 to 1916. The proven victim count is 24, with a possible total of 24+. Evaded arrest and conviction after the discovery of 24 bodies hidden in large metal drums on his property in 1916. At that time he was serving in the Austro-Hungarian Army, and deserted when the military was notified of the murders by civilian authorities. His final whereabouts and fate are unknown, as is his final victim count.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -385,7 +572,7 @@
     "possible_victims": "24+"
   },
   {
-    "id": 36,
+    "id": 53,
     "title": "Majid Salek Mohammadi",
     "text": "Majid Salek Mohammadi was a serial killer from Iran. They were active from 1981 to 1985. The proven victim count is 24, with a possible total of 24. Killed mainly women he considered unfaithful to their husbands, sometimes the children accompanying them too; committed suicide before he could be sentenced.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -396,7 +583,7 @@
     "possible_victims": "24"
   },
   {
-    "id": 37,
+    "id": 54,
     "title": "Yvan Keller",
     "text": "Yvan Keller was a serial killer from France, Germany (suspected), Switzerland (suspected). They were active from 1989 to 2006. The proven victim count is 23, with a possible total of 150. Known as the \"Pillow Killer\"; killed and robbed old women in France's Alsace region, but also confessed to up to 150 murders, including in Germany and Switzerland; committed suicide before trial.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -407,7 +594,7 @@
     "possible_victims": "150"
   },
   {
-    "id": 38,
+    "id": 55,
     "title": "Ronald Dominique",
     "text": "Ronald Dominique was a serial killer from United States. They were active from 1997 to 2006. The proven victim count is 23, with a possible total of 23+. Louisianian serial killer, known locally as the Bayou Strangler and murdered victims in the Terrebonne Parish, Lafourche Parish, Iberville Parish and Jefferson Parish. Sentenced to eight life terms.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -418,7 +605,7 @@
     "possible_victims": "23+"
   },
   {
-    "id": 39,
+    "id": 56,
     "title": "Juan Fernando Hermosa",
     "text": "Juan Fernando Hermosa was a serial killer from Ecuador. They were active from 1991 to 1992. The proven victim count is 23, with a possible total of 23. Known as \"Niño del Terror\"; youth gang leader who murdered mostly taxi drivers and homosexuals in Quito; murdered on his 20th birthday by unknown assailants.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -429,7 +616,7 @@
     "possible_victims": "23"
   },
   {
-    "id": 40,
+    "id": 57,
     "title": "Earle Nelson",
     "text": "Earle Nelson was a serial killer from United States, Canada. They were active from 1926 to 1927. The proven victim count is 22, with a possible total of 25. Necrophiliac who primarily targeted boarding house landladies on the US West Coast during 1926; he was also known as \"Gorilla Killer\" or \"the Dark Strangler\". Captured after two murders in a small (now ghost) town in southern Manitoba. Found guilty, hanged by Canadian authorities in January 1928.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -440,7 +627,7 @@
     "possible_victims": "25"
   },
   {
-    "id": 41,
+    "id": 58,
     "title": "Mikhail Novosyolov",
     "text": "Mikhail Novosyolov was a serial killer from Soviet Union, Russia, Tajikistan. They were active from 1977 to 1995. The proven victim count is 22, with a possible total of 22. Known as the \"Necrophile Rebel\"; killed his victims with blows from heavy objects, then had sexual intercourse with their corpses; sentenced to civil commitment.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -451,7 +638,7 @@
     "possible_victims": "22"
   },
   {
-    "id": 42,
+    "id": 59,
     "title": "Manuel Octavio Bermúdez",
     "text": "Manuel Octavio Bermúdez was a serial killer from Colombia. They were active from 1999 to 2003. The proven victim count is 21, with a possible total of 50+. Colombian pedophile and serial killer. Known as \"El Monstruo de los Cañaduzales\" (The Monster of the Cane Fields). He confessed to killing 21 children in remote areas of Colombia. Sentenced to 40 years in prison.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -462,7 +649,7 @@
     "possible_victims": "50+"
   },
   {
-    "id": 43,
+    "id": 60,
     "title": "Patrick Kearney",
     "text": "Patrick Kearney was a serial killer from United States. They were active from 1965 to 1977. The proven victim count is 21, with a possible total of 43+. Would pick up young male hitch-hikers or young men from gay bars near Redondo Beach, California, and kill them. Sentenced to imprisonment for life.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -473,7 +660,7 @@
     "possible_victims": "43+"
   },
   {
-    "id": 44,
+    "id": 61,
     "title": "William Bonin",
     "text": "William Bonin was a serial killer from United States. They were active from 1979 to 1980. The proven victim count is 21, with a possible total of 36+. Bonin and three accomplices are known to have murdered a minimum of 21 youths aged between 12 and 19 in and around Los Angeles. As the majority of his victims were discarded alongside various southern California freeways, Bonin became known as the Freeway Killer. Convicted of 14 of the freeway murders, he was executed by lethal injection in 1996.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -484,7 +671,7 @@
     "possible_victims": "36+"
   },
   {
-    "id": 45,
+    "id": 62,
     "title": "Vasile Tcaciuc",
     "text": "Vasile Tcaciuc was a serial killer from Romania. They were active from 1917 to 1935. The proven victim count is 21, with a possible total of 26+. Romanian man who lured victims and then murdered them with an axe. He was arrested in 1935 after a dog found a dead body in his house. He confessed to having committed at least 26 murders. He was shot dead by a policeman while trying to escape from prison.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -495,7 +682,7 @@
     "possible_victims": "26+"
   },
   {
-    "id": 46,
+    "id": 63,
     "title": "Yoo Young-chul",
     "text": "Yoo Young-chul was a serial killer from South Korea. They were active from 2003 to 2004. The proven victim count is 21, with a possible total of 26. Used a hammer to murder mostly older victims, until his focus shifted to the decapitation and mutilation of escorts after being dumped by a girlfriend who worked in that profession. Was sentenced to death and currently incarcerated.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -506,7 +693,7 @@
     "possible_victims": "26"
   },
   {
-    "id": 47,
+    "id": 64,
     "title": "Francisco Guerrero Pérez",
     "text": "Francisco Guerrero Pérez was a serial killer from Mexico. They were active from 1880 to 1908. The proven victim count is 21, with a possible total of 21. Known as \"El Chaquero\"; the first captured serial killer in Mexico, who killed prostitutes in Mexico City; died in 1910 from cerebral thromboembolism and another, unspecified cause.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -517,7 +704,7 @@
     "possible_victims": "21"
   },
   {
-    "id": 48,
+    "id": 65,
     "title": "José Paz Bezerra",
     "text": "José Paz Bezerra was a serial killer from Brazil. They were active from 1960s to 1970s. The proven victim count is 20, with a possible total of 20+. Known as the \"Morumbi Monster\"; sexually violated, tortured and then murdered at least 20 women in São Paulo and Pará; sentenced to 30 years imprisonment and later released in 2001.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -528,7 +715,7 @@
     "possible_victims": "20+"
   },
   {
-    "id": 49,
+    "id": 66,
     "title": "Bulelani Mabhayi",
     "text": "Bulelani Mabhayi was a serial killer from South Africa. They were active from 2007 to 2012. The proven victim count is 20, with a possible total of 20. Known as the \"Monster of Tholeni\"; killed women and children in the village of Tholeni; sentenced from 25 years to life imprisonment.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -539,7 +726,7 @@
     "possible_victims": "20"
   },
   {
-    "id": 50,
+    "id": 67,
     "title": "Alexander Spesivtsev",
     "text": "Alexander Spesivtsev was a serial killer from Russia. They were active from 1991 to 1996. The proven victim count is 19, with a possible total of 82+. Cannibal known as \"The Novokuznetsk Monster\"; admitted to 19 murders, but 82 bloody sets of clothes were found in his home, along with jewels and photographs of possibly unidentified victims. Found insane and interned in a mental hospital. His mother was sentenced to 16 years in prison for luring Spesivtsev's victims to their home.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -550,7 +737,7 @@
     "possible_victims": "82+"
   },
   {
-    "id": 51,
+    "id": 68,
     "title": "Larry Eyler",
     "text": "Larry Eyler was a serial killer from United States. They were active from 1982 to 1984. The proven victim count is 19, with a possible total of 23+. Known as \"The Interstate Killer\"; sentenced to death for the 1984 murder and dismemberment of 15-year-old Daniel Bridges. He confessed to other homicides of young men and boys in five separate states. Died of AIDS complications in 1994.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -561,7 +748,7 @@
     "possible_victims": "23+"
   },
   {
-    "id": 52,
+    "id": 69,
     "title": "Surinder Koli",
     "text": "Surinder Koli was a serial killer from India. They were active from 2005 to 2006. The proven victim count is 19, with a possible total of 30+. Between 2005 and 2006, a domestic servant of Indian businessman Moninder Singh Pandher, Surinder Koli, kidnapped, raped, murdered, and dismembered 19 people, mostly children. Convicted and sentenced to life.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -572,7 +759,7 @@
     "possible_victims": "30+"
   },
   {
-    "id": 53,
+    "id": 70,
     "title": "El Psicópata",
     "text": "El Psicópata was a serial killer from Costa Rica. They were active from 1986 to 1996. The proven victim count is 19, with a possible total of 19+. (\"The Psychopath\") Unidentified serial killer who killed 19 people with an M3 submachine gun in three Costa Rican towns, always south of the Florencio del Castillo Highway.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -583,7 +770,7 @@
     "possible_victims": "19+"
   },
   {
-    "id": 54,
+    "id": 71,
     "title": "Sergei Ryakhovsky",
     "text": "Sergei Ryakhovsky was a serial killer from Soviet Union, Russia. They were active from 1988 to 1993. The proven victim count is 19, with a possible total of 19+. Known as the Balashikha Ripper, he was convicted for the murders of at least 19 victims. Died from tuberculosis in 2005.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -594,7 +781,7 @@
     "possible_victims": "19+"
   },
   {
-    "id": 55,
+    "id": 72,
     "title": "Yevgeny Chuplinsky",
     "text": "Yevgeny Chuplinsky was a serial killer from Russia. They were active from 1998 to 2006. The proven victim count is 19, with a possible total of 19+. Known as the \"Novosibirsk Maniac\"; killed prostitutes in Novosibirsk; despite extensive police search and the capture of another serial killer, he was only arrested in 2016; sentenced to life imprisonment.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -605,7 +792,7 @@
     "possible_victims": "19+"
   },
   {
-    "id": 56,
+    "id": 73,
     "title": "M. Jaishankar",
     "text": "M. Jaishankar was a serial killer from India. They were active from 2008 to 2011. The proven victim count is 19, with a possible total of 19+. Accused of killing at least 19 women. Charged with 13 murders, he escaped during a trial transport. Killed eight more people in two months before he was recaptured. Sentenced to 27 years. Committed suicide by slashing his wrists with a shaving blade in prison on 27 February 2018.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -616,7 +803,7 @@
     "possible_victims": "19+"
   },
   {
-    "id": 57,
+    "id": 74,
     "title": "Vadim Ershov",
     "text": "Vadim Ershov was a serial killer from Russia. They were active from 1992 to 1995. The proven victim count is 19, with a possible total of 19. Known as the \"Krasnoyarsk Beast\"; committed 70 crimes around the Krasnoyarsk area, including 19 murders and eight attempted murders; sentenced to death, commuted to life imprisonment.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -627,7 +814,7 @@
     "possible_victims": "19"
   },
   {
-    "id": 58,
+    "id": 75,
     "title": "Yavuz Yapıcıoğlu",
     "text": "Yavuz Yapıcıoğlu was a serial killer from Turkey. They were active from 1994 to 2002. The proven victim count is 18, with a possible total of 40+. Killed in various cities of Turkey. 18 murders proven and accused of more than 40 by eyewitnesses and relatives. Was sentenced to 74 years in prison.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -638,7 +825,7 @@
     "possible_victims": "40+"
   },
   {
-    "id": 59,
+    "id": 76,
     "title": "Christopher Mhlengwa Zikode",
     "text": "Christopher Mhlengwa Zikode was a serial killer from South Africa. They were active from 1994 to 1995. The proven victim count is 18, with a possible total of 18+. Known as \"Donnybrook Serial Killer\" murdered 18 people in Donnybrook, KwaZulu Natal from 1994 to 1995. Was given 140 years (5 life sentences).",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -649,7 +836,7 @@
     "possible_victims": "18+"
   },
   {
-    "id": 60,
+    "id": 77,
     "title": "Huang Yong",
     "text": "Huang Yong was a serial killer from China. They were active from 2001 to 2003. The proven victim count is 17, with a possible total of 25. Lured and murdered 17 teenage boys, although he is suspected of 25 murders between September 2001 and 2003. Executed by firing squad in 2003.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -660,7 +847,7 @@
     "possible_victims": "25"
   },
   {
-    "id": 61,
+    "id": 78,
     "title": "Pedro Pablo Nakada Ludeña",
     "text": "Pedro Pablo Nakada Ludeña was a serial killer from Peru. They were active from 2005 to 2006. The proven victim count is 17, with a possible total of 25. Known as \"El Apóstol de la Muerte\" (\"The Apostle of Death\"). Convicted of 17 murders and claimed 25. Sentenced to 35 years in prison.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -671,7 +858,7 @@
     "possible_victims": "25"
   },
   {
-    "id": 62,
+    "id": 79,
     "title": "Donato Bilancia",
     "text": "Donato Bilancia was a serial killer from Italy. They were active from 1997 to 1998. The proven victim count is 17, with a possible total of 17. Burglar who murdered 17 people, mainly prostitutes, between 1997 and 1998, during a six-month period. Known as the \"Prostitutes Killer\" and the \"Liguria Monster\". Sentenced to imprisonment for life.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -682,7 +869,7 @@
     "possible_victims": "17"
   },
   {
-    "id": 63,
+    "id": 80,
     "title": "Randy Steven Kraft",
     "text": "Randy Steven Kraft was a serial killer from United States. They were active from 1971 to 1983. The proven victim count is 16, with a possible total of 65–67. Convicted of 16 counts of murder but left a cryptic \"score card\" referring to at least 65 victims. May have had an accomplice. Sentenced to death.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -693,7 +880,7 @@
     "possible_victims": "65–67"
   },
   {
-    "id": 64,
+    "id": 81,
     "title": "Mohammed Bijeh",
     "text": "Mohammed Bijeh was a serial killer from Iran. They were active from 2004. The proven victim count is 16, with a possible total of 20. Raped and killed at least 16 boys and teenagers. Nicknamed the \"Tehran Desert Vampire\". Was convicted and executed after being lashed in front of a crowd in 2005.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -704,7 +891,7 @@
     "possible_victims": "20"
   },
   {
-    "id": 65,
+    "id": 82,
     "title": "Michel Fourniret",
     "text": "Michel Fourniret was a serial killer from France, Belgium. They were active from 1987 to 2001. The proven victim count is 16, with a possible total of 19. Known as the Ogre or Beast of Ardennes. He was caught after a failed kidnapping in 2003. Sentenced to life and died of respiratory problems while in prison in 2021.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -715,7 +902,7 @@
     "possible_victims": "19"
   },
   {
-    "id": 66,
+    "id": 83,
     "title": "Sipho Agmatir Thwala",
     "text": "Sipho Agmatir Thwala was a serial killer from South Africa. They were active from 1996 to 1997. The proven victim count is 16, with a possible total of 19. Nicknamed the Phoenix Strangler after the area in which he committed his crimes; he raped and strangled 19 women; arrested, he was found guilty of 16 murders and sentenced to life.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -726,7 +913,7 @@
     "possible_victims": "19"
   },
   {
-    "id": 67,
+    "id": 84,
     "title": "Saeed Hanaei",
     "text": "Saeed Hanaei was a serial killer from Iran. They were active from 2000 to 2001. The proven victim count is 16, with a possible total of 19. Confessed to luring 16 prostitutes to his home and killing them in an attempt to \"cleanse\" the city of Mashhad. His actions were dubbed \"The Spider Murders\". Executed by hanging in 2002.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -737,18 +924,7 @@
     "possible_victims": "19"
   },
   {
-    "id": 68,
-    "title": "Jeffrey Dahmer",
-    "text": "Jeffrey Dahmer was a serial killer from United States. They were active from 1978 to 1991. The proven victim count is 16, with a possible total of 17. Dahmer ate some of his victims and kept their body parts in his freezer. Was sentenced to life imprisonment; murdered in prison in 1994.",
-    "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
-    "category": "American",
-    "country": "United States",
-    "years_active": "1978 to 1991",
-    "proven_victims": "16",
-    "possible_victims": "17"
-  },
-  {
-    "id": 69,
+    "id": 85,
     "title": "José Antonio Rodríguez Vega",
     "text": "José Antonio Rodríguez Vega was a serial killer from Spain. They were active from 1987 to 1988. The proven victim count is 16, with a possible total of 16+. Nicknamed El Mataviejas (The Old Lady Killer), he raped and killed at least 16 elderly women, aged from 61 to 93 years old, in and around Santander, Cantabria. He went unrecognized for over a year because he moved his victims into their beds after they were killed; no autopsies were made and the deaths were attributed to natural causes. He also took trophies from his victims that he held in a particular room of his home; about 10 percent of these trophies remained unclaimed, implying the existence of other victims. He was stabbed to death by two inmates while incarcerated in 2002.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -759,7 +935,7 @@
     "possible_victims": "16+"
   },
   {
-    "id": 70,
+    "id": 86,
     "title": "Elias Xitavhudzi",
     "text": "Elias Xitavhudzi was a serial killer from South Africa. They were active from 1950s. The proven victim count is 16, with a possible total of 16. Nicknamed Panga man for his use of a machete (locally known as a \"panga\"). He stabbed and robbed his victims between 1953 and 1959; arrested, he was executed by hanging in 1960.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -770,7 +946,7 @@
     "possible_victims": "16"
   },
   {
-    "id": 71,
+    "id": 87,
     "title": "Robert Lee Yates",
     "text": "Robert Lee Yates was a serial killer from United States. They were active from 1975 to 1998. The proven victim count is 16, with a possible total of 16. Killed prostitutes in the \"Skid Row\" area of E. Sprague Avenue in Spokane, Washington. Sentenced to 408 years in prison and two death sentences.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -781,7 +957,7 @@
     "possible_victims": "16"
   },
   {
-    "id": 72,
+    "id": 88,
     "title": "Charles Ray Hatcher",
     "text": "Charles Ray Hatcher was a serial killer from United States. They were active from 1969 to 1982. The proven victim count is 16, with a possible total of 16. A habitual criminal, confessed to the rape and murder of over 20 young and adolescent males. Escaped from prison several times and was declared a \"manipulative institutionalized sociopath\". Sentenced to life; committed suicide by hanging himself in prison in 1984.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -792,7 +968,7 @@
     "possible_victims": "16"
   },
   {
-    "id": 73,
+    "id": 89,
     "title": "Lee Choon-jae",
     "text": "Lee Choon-jae was a serial killer from South Korea. They were active from 1986 to 1994. The proven victim count is 15. Also known as the Hwaseong serial murders. Most of the victims were bound, gagged, and strangled to death with their own clothes. It sparked the largest criminal case in South Korea with two million officers mobilized and over 21,000 suspects investigated. A suspect was identified in 2019, but he could not be prosecuted due to the statute of limitations. He later confessed to killing 15 people, in addition to the murder of his sister-in-law.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -803,7 +979,7 @@
     "possible_victims": ""
   },
   {
-    "id": 74,
+    "id": 90,
     "title": "Dorángel Vargas",
     "text": "Dorángel Vargas was a serial killer from Venezuela. They were active from 1997 to 1999. The proven victim count is 15. Homeless cannibal known as \"The People Eater\" (El Comegente) and \"The Hannibal Lecter of the Andes\". Murdered a homeless man and was institutionalized. After escaping the institution, he went on to kill ten other men and was arrested. In 2016, he and several other inmates killed three others and Vargas fed their remains to them.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -814,7 +990,7 @@
     "possible_victims": ""
   },
   {
-    "id": 75,
+    "id": 91,
     "title": "Robert Hansen",
     "text": "Robert Hansen was a serial killer from United States. They were active from 1980 to 1983. The proven victim count is 15, with a possible total of 21. Prostitutes he kidnapped were released into the Alaskan wilderness for him to hunt down like animals. Based on discovered remains, police suspect him of six murders in addition to the 15 for which he was convicted. Sentenced to 461 years plus life. Died from unspecified health problems in 2014.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
@@ -825,7 +1001,7 @@
     "possible_victims": "21"
   },
   {
-    "id": 76,
+    "id": 92,
     "title": "Ángel Maturino Reséndiz",
     "text": "Ángel Maturino Reséndiz was a serial killer from United States, Mexico. They were active from 1986 to 1999. The proven victim count is 15, with a possible total of 18. Known as the \"Railroad Killer\" because his killings were committed near the railroad tracks he used to traverse the country. He was charged with and/or confessed to 15 murders occurring from 1986 to 1999 in Texas, Florida, Illinois, Georgia, and Kentucky. He was also suspected in a 1997 California murder case and claimed two additional killings he refused to elaborate on. Executed by lethal injection in 2006.",
     "source": "https://www.kaggle.com/datasets/vesuvius13/serial-killers-dataset",
