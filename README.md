@@ -1,7 +1,6 @@
 # Serial Killers Search Engine 
 
 
-## Enhancement: A — Term Highlighting
 The search engine highlights matching query terms directly in the search results. When a user searches for a term, all occurrences of that term (including morphological variants like plurals and verb forms) are visually highlighted in both the document title and text. This makes it immediately clear *why* a document was returned and where the relevant information appears.
 
 ### How it works:
@@ -52,8 +51,8 @@ serial-killer-search-engine/
 ```
 
 ## Corpus
-- **25 documents** covering notorious serial killers from around the world
-- Sources include: History.com, Britannica, Biography.com, Wikipedia, CBS News, Oxygen, FBI
+- **75 documents** covering notorious serial killers from around the world
+- Sources include: History.com, Britannica, Biography.com, Wikipedia, CBS News, Oxygen, FBI, kaggle
 - Categories: American, International, Unidentified
 
 
